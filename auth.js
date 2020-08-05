@@ -44,9 +44,9 @@ export default {
       })
       //.signIn()
       .then(authReady) // after auth2 init
-      .catch(function(err) {
-        console.error('auth.init:catch', err);
-      });
+     // .catch(function(err) {
+     //   console.error('auth.init:catch', err);
+     // });
     });
   },
 
